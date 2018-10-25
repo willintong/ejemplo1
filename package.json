@@ -1,0 +1,25 @@
+{
+  "name": "documento",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "pack": "build --dir",
+    "dist": "build",
+    "start": "electron ."
+  },
+  "author": "sancudo por extremo",
+  "license": "MIT",
+  "build": {
+    "appId": "CRUD-electronv1",
+    "asar": true,
+    "win": {
+      "target": "NSIS",
+      "icon": "c.ico"
+    }
+  },
+  "devDependencies": {
+    "electron": "^3.0.6",
+    "electron-builder": "^20.28.4"
+  }
+}

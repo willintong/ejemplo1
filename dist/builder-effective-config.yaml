@@ -1,0 +1,9 @@
+directories:
+  output: dist
+  buildResources: build
+appId: CRUD-electronv1
+asar: true
+win:
+  target: NSIS
+  icon: c.ico
+electronVersion: 3.0.6
